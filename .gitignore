@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Backend runtime
+backend/trishield.db
+backend/*.db
+.env
+
+# ML training — raw datasets and the processed feature CSVs derived
+# from them are large and fully reproducible (fetch_datasets.sh +
+# prepare_*.py); only the small trained model artifacts under models/
+# and the evaluation reports are committed.
+ml-training/data/raw/*
+!ml-training/data/raw/.gitkeep
+ml-training/data/processed/*
+!ml-training/data/processed/.gitkeep
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS / editors
+.DS_Store
+*.swp

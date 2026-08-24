@@ -1,0 +1,17 @@
+{
+  "channel": "web_baseline_rf",
+  "accuracy": 0.9384893713251922,
+  "precision": 0.946031746031746,
+  "recall": 0.9131767109295199,
+  "f1_score": 0.9293139293139293,
+  "roc_auc": 0.9885347989599776,
+  "pr_auc": 0.9864342829239632,
+  "false_positive_rate": 0.041396103896103896,
+  "confusion_matrix": {
+    "tn": 1181,
+    "fp": 51,
+    "fn": 85,
+    "tp": 894
+  },
+  "n_test_samples": 2211
+}

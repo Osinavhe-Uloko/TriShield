@@ -1,0 +1,22 @@
+{
+  "channel": "url_xgboost",
+  "accuracy": 0.9603333333333334,
+  "precision": 0.9245783132530121,
+  "recall": 0.95925,
+  "f1_score": 0.9415950920245398,
+  "roc_auc": 0.990812671875,
+  "pr_auc": 0.9839321439362119,
+  "false_positive_rate": 0.039125,
+  "confusion_matrix": {
+    "tn": 7687,
+    "fp": 313,
+    "fn": 163,
+    "tp": 3837
+  },
+  "n_test_samples": 12000,
+  "best_params": {
+    "learning_rate": 0.2,
+    "max_depth": 6,
+    "n_estimators": 300
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "channel": "url_baseline_logreg",
+  "accuracy": 0.90225,
+  "precision": 0.8259165321650911,
+  "recall": 0.8955,
+  "f1_score": 0.8593019071608492,
+  "roc_auc": 0.957899296875,
+  "pr_auc": 0.9273650176962642,
+  "false_positive_rate": 0.094375,
+  "confusion_matrix": {
+    "tn": 7245,
+    "fp": 755,
+    "fn": 418,
+    "tp": 3582
+  },
+  "n_test_samples": 12000
+}

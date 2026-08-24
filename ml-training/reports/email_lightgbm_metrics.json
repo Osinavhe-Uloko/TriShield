@@ -1,0 +1,17 @@
+{
+  "channel": "email_lightgbm",
+  "accuracy": 0.98046875,
+  "precision": 0.9674673152934022,
+  "recall": 0.994375,
+  "f1_score": 0.9807366312220681,
+  "roc_auc": 0.997946533203125,
+  "pr_auc": 0.9978285149282538,
+  "false_positive_rate": 0.0334375,
+  "confusion_matrix": {
+    "tn": 3093,
+    "fp": 107,
+    "fn": 18,
+    "tp": 3182
+  },
+  "n_test_samples": 6400
+}

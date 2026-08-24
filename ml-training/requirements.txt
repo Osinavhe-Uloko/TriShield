@@ -1,0 +1,4 @@
+-r ../backend/requirements.txt
+xgboost==2.1.1
+lightgbm==4.5.0
+matplotlib==3.9.2
